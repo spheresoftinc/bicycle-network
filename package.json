@@ -1,0 +1,29 @@
+{
+  "name": "bicycle-network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Spheresoft",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "babel-jest": "^25.2.6",
+    "jest": "^25.2.7",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/jest": "^25.2.1"
+  }
+}
